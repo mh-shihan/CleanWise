@@ -181,34 +181,6 @@ dataset could appear in both training and test data. CleanWise instead groups by
 A held-out dataset therefore behaves more like the real deployment question: *can this knowledge
 transfer to a dataset the recommender has never seen?*
 
-## Research expansion plan
-
-For a serious conference submission:
-
-1. Expand to 30–100+ independent OpenML/UCI datasets with documented licenses.
-2. Compute all recommendation-time features from corrupted/observed training data only.
-3. Use repeated GroupKFold or leave-one-dataset-out validation.
-4. Add stronger heuristics and AutoML/pipeline-selection comparisons from related work.
-5. Add multiple corruption mechanisms (MCAR/MAR-like missingness, structured label noise).
-6. Add uncertainty calibration and an abstain option.
-7. Measure wall-clock cost and number of evaluated interventions.
-8. Add statistical confidence intervals and paired significance/effect-size analyses.
-9. Evaluate naturally imperfect datasets in addition to synthetic corruptions.
-10. Conduct ablation studies on meta-feature families.
-
-## CV wording after you run and verify it
-
-**CleanWise — Data-Cleaning Intervention Recommender**  
-*Python, pandas, scikit-learn, Streamlit*
-
-- Developed a reproducible meta-learning pipeline that predicts the downstream value of candidate
-  data-cleaning interventions using dataset-level statistical and quality features.
-- Implemented controlled data-quality corruptions, leakage-aware preprocessing, dataset-grouped
-  holdout evaluation, heuristic baselines, and intervention-ranking metrics.
-- Built an interactive Streamlit application for dataset profiling and cleaning-intervention
-  recommendation.
-
-Add numerical results only after your expanded benchmark produces defensible held-out results.
 
 ## License
 
