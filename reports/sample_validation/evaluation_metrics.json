@@ -1,0 +1,14 @@
+{
+  "model": "ridge",
+  "mae": 0.029890969499103418,
+  "rmse": 0.0364798133430277,
+  "r2": -0.14452928702366408,
+  "sign_accuracy": 0.25,
+  "top1_accuracy": 0.5,
+  "mean_regret": 0.00218070172465415,
+  "mean_selected_delta": 0.03641259028657205,
+  "n_train_datasets": 3,
+  "n_test_datasets": 1,
+  "n_train_rows": 12,
+  "n_test_rows": 4
+}

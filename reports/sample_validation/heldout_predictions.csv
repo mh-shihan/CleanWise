@@ -1,0 +1,5 @@
+dataset_id,corruption,corruption_level,intervention,model_name,delta_macro_f1,predicted_delta_macro_f1
+digits,missingness,0.05,median_imputation,logistic_regression,0.0,0.015231986351783914
+digits,missingness,0.05,iqr_capping,logistic_regression,-0.0043614034493083,0.04916371923075735
+digits,outliers,0.05,median_imputation,logistic_regression,0.0,0.047030810054021537
+digits,outliers,0.05,iqr_capping,logistic_regression,0.0771865840224524,0.08096254293299497

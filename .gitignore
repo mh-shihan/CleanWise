@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.py[cod]
+.env
+data/raw/*
+data/processed/*
+!data/raw/README.md
+!data/processed/README.md
+artifacts/*
+reports/generated/*
+!artifacts/README.md
+!reports/generated/README.md
+.DS_Store

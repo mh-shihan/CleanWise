@@ -1,0 +1,12 @@
+[
+  {
+    "strategy": "problem_based_heuristic",
+    "mean_selected_delta": 0.0384054415070864,
+    "positive_selection_rate": 0.5
+  },
+  {
+    "strategy": "exhaustive_oracle_upper_bound",
+    "mean_selected_delta": 0.039338589271908295,
+    "positive_selection_rate": 0.625
+  }
+]
